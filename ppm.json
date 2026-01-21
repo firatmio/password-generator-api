@@ -1,0 +1,16 @@
+{
+  "name": "password-generator-api",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "python src/password_generator_api/main.py",
+    "test": "pytest"
+  },
+  "build": {
+    "console": true,
+    "keep_build_folder": true
+  },
+  "dependencies": {
+    "fastapi": "*",
+    "uvicorn": "*"
+  }
+}
