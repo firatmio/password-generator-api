@@ -44,10 +44,8 @@ def create_password(
     return {"password": password}
 
 """
-
 example usage:
 http://localhost:8000/password?length=12&lower=true&upper=true&digits=true&special=false
-
 """
 
 def main():
